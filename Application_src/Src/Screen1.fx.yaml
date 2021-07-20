@@ -3,7 +3,7 @@ Screen1 As screen:
     "'En-tête' As groupContainer":
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 94, 146, 1)
-        Height: =111
+        Height: =100
         LayoutAlignItems: =LayoutAlignItems.Start
         LayoutDirection: =LayoutDirection.Horizontal
         LayoutJustifyContent: =LayoutJustifyContent.Start
@@ -16,10 +16,10 @@ Screen1 As screen:
         Titre As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
-            Height: =64
+            Height: =60
             Size: =20
             Text: ="Lifecycle management"
-            Width: =423
+            Width: =420
             X: =472
             Y: =24
             ZIndex: =2
