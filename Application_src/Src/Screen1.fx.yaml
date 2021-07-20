@@ -1,0 +1,34 @@
+Screen1 As screen:
+
+    "'En-tête' As groupContainer":
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 94, 146, 1)
+        Height: =111
+        LayoutAlignItems: =LayoutAlignItems.Start
+        LayoutDirection: =LayoutDirection.Horizontal
+        LayoutJustifyContent: =LayoutJustifyContent.Start
+        LayoutMode: =LayoutMode.Manual
+        LayoutOverflowX: =LayoutOverflow.Hide
+        LayoutOverflowY: =LayoutOverflow.Hide
+        Width: =1366
+        ZIndex: =3
+
+        Titre As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =64
+            Size: =20
+            Text: ="Lifecycle management"
+            Width: =423
+            X: =472
+            Y: =24
+            ZIndex: =2
+
+        Rechercher As icon.Search:
+            Color: =RGBA(255, 255, 255, 1)
+            Icon: =Icon.Search
+            Width: =63
+            X: =1275
+            Y: =24
+            ZIndex: =3
+
