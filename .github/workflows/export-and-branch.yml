@@ -60,6 +60,6 @@ jobs:
       uses: microsoft/powerplatform-actions/branch-solution@v0
       with:
         solution-folder: ${{ env.SOLUTION_EXPORT_FOLDER }}/${{ env.SOLUTION_NAME }}
-        solution-target-folder: ${{ env.SOLUTION_TARGET_FOLDER}}/${{ env.SOLUTION_NAME }
+        solution-target-folder: ${{ env.SOLUTION_TARGET_FOLDER}}/${{ env.SOLUTION_NAME }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         allow-empty-commit: true
