@@ -31,9 +31,11 @@ jobs:
       uses: microsoft/powerplatform-actions/who-am-i@0.4.0
       with:
         environment-url: ${{env.ENVIRONMENT_URL}}
-        app-id: ${{env.CLIENT_ID}}
-        client-secret: ${{ secrets.POWERPLATFORMSPN }}
-        tenant-id: ${{env.TENANT_ID}}
+        user-name: nicolas@neoreeds.com
+        password-secret: ${{ secrets.PASSWORD }}
+#         app-id: ${{env.CLIENT_ID}}
+#         client-secret: ${{ secrets.POWERPLATFORMSPN }}
+#         tenant-id: ${{env.TENANT_ID}}
 
 
     - name: export-solution action
