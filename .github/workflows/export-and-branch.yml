@@ -1,0 +1,65 @@
+name: export-and-branch-solution
+# Export solution from DEV environment
+#  unpack it and prepare, commit and push a git branch with the changes
+
+on:
+  workflow_dispatch:
+
+env:
+#edit your values here
+  SOLUTION_NAME: 'MH360Partenaires'
+  ENVIRONMENT_URL: 'https://org34ffb7c6.crm4.dynamics.com/'
+  CLIENT_ID: 'b4ed0bca-acb5-4c0a-910a-d997659b1769'
+  TENANT_ID: 'd1b19eb5-6e94-43a3-bdb5-ad137a53b515'
+  PRODUCTION_ENVIRONMENT_URL: 'https://orgc61d3faa.crm4.dynamics.com/'
+  SOLUTION_EXPORT_FOLDER: 'out/exported/'
+  SOLUTION_FOLDER: 'out/solutions/'
+  SOLUTION_TARGET_FOLDER: 'solutions/'
+
+jobs:
+  export-from-dev:
+    runs-on: windows-latest
+    # or you can say runs-on: ubuntu-latest
+    env:
+      RUNNER_DEBUG: 1
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        lfs: true
+
+    - name: who-am-i action
+      uses: microsoft/powerplatform-actions/who-am-i@0.4.0
+      with:
+        environment-url: ${{env.ENVIRONMENT_URL}}
+        app-id: ${{env.CLIENT_ID}}
+        client-secret: ${{ secrets.PowerPlatformSPN }}
+        tenant-id: ${{env.TENANT_ID}}
+
+
+    - name: export-solution action
+      uses: microsoft/powerplatform-actions/export-solution@0.4.0
+      with:
+        environment-url: ${{env.ENVIRONMENT_URL}}
+        app-id: ${{env.CLIENT_ID}}
+        client-secret: ${{ secrets.PowerPlatformSPN }}
+        tenant-id: ${{env.TENANT_ID}}
+        solution-name: ${{ env.SOLUTION_NAME }}
+        managed: true
+        solution-output-file: ${{ env.SOLUTION_EXPORT_FOLDER}}/${{ env.SOLUTION_NAME }}.zip
+
+    - name: unpack-solution action
+      uses: microsoft/powerplatform-actions/unpack-solution@0.4.0
+      with:
+        solution-file: ${{ env.SOLUTION_EXPORT_FOLDER}}/${{ env.SOLUTION_NAME }}.zip
+        solution-folder: ${{ env.SOLUTION_EXPORT_FOLDER}}/${{ env.SOLUTION_NAME }}
+        solution-type: 'Unmanaged'
+        overwrite-files: true
+
+    - name: branch-solution, prepare it for a PullRequest
+      uses: microsoft/powerplatform-actions/branch-solution@v0
+      with:
+        solution-folder: ${{ env.SOLUTION_EXPORT_FOLDER }}/${{ env.SOLUTION_NAME }}
+        solution-target-folder: ${{ env.SOLUTION_TARGET_FOLDER}}/${{ env.SOLUTION_NAME }
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        allow-empty-commit: true
