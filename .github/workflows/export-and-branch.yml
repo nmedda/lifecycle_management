@@ -8,7 +8,7 @@ on:
 env:
 #edit your values here
   SOLUTION_NAME: 'MH360Partenaires'
-  ENVIRONMENT_URL: 'https://org34ffb7c6.crm4.dynamics.com/'
+  ENVIRONMENT_URL: 'https://org34ffb7c6.crm4.dynamics.com'
   CLIENT_ID: 'b4ed0bca-acb5-4c0a-910a-d997659b1769'
   TENANT_ID: 'd1b19eb5-6e94-43a3-bdb5-ad137a53b515'
   SOLUTION_EXPORT_FOLDER: 'out/exported/'
