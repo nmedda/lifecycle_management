@@ -11,7 +11,6 @@ env:
   ENVIRONMENT_URL: 'https://org34ffb7c6.crm4.dynamics.com/'
   CLIENT_ID: 'b4ed0bca-acb5-4c0a-910a-d997659b1769'
   TENANT_ID: 'd1b19eb5-6e94-43a3-bdb5-ad137a53b515'
-  PRODUCTION_ENVIRONMENT_URL: 'https://orgc61d3faa.crm4.dynamics.com/'
   SOLUTION_EXPORT_FOLDER: 'out/exported/'
   SOLUTION_FOLDER: 'out/solutions/'
   SOLUTION_TARGET_FOLDER: 'solutions/'
