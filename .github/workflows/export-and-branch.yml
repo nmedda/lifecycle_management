@@ -42,9 +42,8 @@ jobs:
       uses: microsoft/powerplatform-actions/export-solution@0.4.0
       with:
         environment-url: ${{env.ENVIRONMENT_URL}}
-        app-id: ${{env.CLIENT_ID}}
-        client-secret: ${{ secrets.PowerPlatformSPN }}
-        tenant-id: ${{env.TENANT_ID}}
+        user-name: nicolas@neoreeds.com
+        password-secret: ${{ secrets.PASSWORD }}
         solution-name: ${{ env.SOLUTION_NAME }}
         managed: true
         solution-output-file: ${{ env.SOLUTION_EXPORT_FOLDER}}/${{ env.SOLUTION_NAME }}.zip
