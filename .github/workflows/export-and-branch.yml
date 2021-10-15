@@ -45,7 +45,7 @@ jobs:
         user-name: nicolas@neoreeds.com
         password-secret: ${{ secrets.PASSWORD }}
         solution-name: ${{ env.SOLUTION_NAME }}
-        managed: true
+        managed: false
         solution-output-file: ${{ env.SOLUTION_EXPORT_FOLDER}}/${{ env.SOLUTION_NAME }}.zip
 
     - name: unpack-solution action
