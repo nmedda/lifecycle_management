@@ -53,7 +53,7 @@ jobs:
       with:
         solution-file: ${{ env.SOLUTION_EXPORT_FOLDER}}/${{ env.SOLUTION_NAME }}.zip
         solution-folder: ${{ env.SOLUTION_EXPORT_FOLDER}}/${{ env.SOLUTION_NAME }}
-        solution-type: 'managed'
+        solution-type: 'Unmanaged'
         overwrite-files: true
 
     - name: branch-solution, prepare it for a PullRequest
