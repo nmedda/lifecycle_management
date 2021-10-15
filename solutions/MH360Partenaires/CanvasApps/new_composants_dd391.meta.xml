@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>new_composants_dd391</Name>
+  <AppVersion>2021-10-15T09:59:39Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21094.21.0</CreatedByClientVersion>
+  <MinClientVersion>3.21094.21.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"da800b20-5c05-462f-9d85-0b905fbe0b16","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.21094.21","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(251, 101, 60, 255)</BackgroundColor>
+  <DisplayName>Composants</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"e24ebc65-2839-4e52-b696-87c14cbf0f00":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1518/1.0.1518.2564/sharepointonline/icon.png","dataSources":["envVariables"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://b1envenue.sharepoint.com/sites/MH360Dev":{"datasetOverride":{"name":"https://b1envenue.sharepoint.com/sites/MH360Dev","environmentVariableName":"new_varSiteSharePoint"},"dataSources":{"envVariables":{"tableName":"95c9d549-9606-49a9-b3f2-f13cde61f15a","tableNameOverride":{"name":"95c9d549-9606-49a9-b3f2-f13cde61f15a","environmentVariableName":"new_varEnv"}}}}},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <CanvasAppType>1</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies xsi:nil="true"></CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/new_composants_dd391_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/new_composants_dd391_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21092.145" SolutionPackageVersion="9.2" languagecode="1036" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MH360Partenaires</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="MH360 Partenaires" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Mise à niveau de MH360 Partenaires 2" languagecode="1036" />
+    </Descriptions>
+    <Version>1.2.9.9</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>DefaultPublisherorg64e79b43</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Éditeur par défaut pour org64e79b43" languagecode="1036" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Éditeur par défaut pour cette organisation" languagecode="1036" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>new</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="29" id="{01d0147f-73dd-eb11-bacb-0022486fad03}" behavior="0" />
+      <RootComponent type="29" id="{206223b5-9c09-ec11-b6e6-000d3a9580db}" behavior="0" />
+      <RootComponent type="29" id="{27bcddc1-e6c9-eb11-bacc-0022486fadae}" behavior="0" />
+      <RootComponent type="29" id="{307f56e8-b7ee-eb11-94ef-000d3a959d26}" behavior="0" />
+      <RootComponent type="29" id="{3c31f25d-0b25-ec11-b6e6-0022486fa8e8}" behavior="0" />
+      <RootComponent type="29" id="{3d426a2e-f503-ec11-b6e7-000d3a9594c5}" behavior="0" />
+      <RootComponent type="29" id="{4142fb27-3f07-ec11-b6e7-000d3a959e60}" behavior="0" />
+      <RootComponent type="29" id="{86bdb53f-4727-ec11-b6e6-0022486fa8e8}" behavior="0" />
+      <RootComponent type="29" id="{bd882dca-41cf-eb11-bacc-0022486fa2db}" behavior="0" />
+      <RootComponent type="29" id="{beee29cb-da10-ec11-b6e6-000d3a9593f9}" behavior="0" />
+      <RootComponent type="29" id="{c13795e1-4eee-eb11-94ef-000d3a9593ad}" behavior="0" />
+      <RootComponent type="300" schemaName="new_applicationauditetcontrlepermanent_7caa7" behavior="0" />
+      <RootComponent type="300" schemaName="new_applicationcotisation_54b64" behavior="0" />
+      <RootComponent type="300" schemaName="new_applicationddmess_537d9" behavior="0" />
+      <RootComponent type="300" schemaName="new_applicationdso_94735" behavior="0" />
+      <RootComponent type="300" schemaName="new_applicationdti_25551" behavior="0" />
+      <RootComponent type="300" schemaName="new_applicationpartenariatsant_4b1eb" behavior="0" />
+      <RootComponent type="300" schemaName="new_applicationpartenariat_b0bb5" behavior="0" />
+      <RootComponent type="300" schemaName="new_applicationprestations_dc99f" behavior="0" />
+      <RootComponent type="300" schemaName="new_composants_dd391" behavior="0" />
+      <RootComponent type="300" schemaName="new_gestiondesdemandesv2_44354" behavior="0" />
+    </RootComponents>
+    <MissingDependencies />
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="new_VarAnnexeGroupAD">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <displayname default="VarAnnexeGroupAD">
+    <label description="VarAnnexeGroupAD" languagecode="1036" />
+  </displayname>
+  <introducedversion>1.2.8.1</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>new_varSiteSharePoint</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

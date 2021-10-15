@@ -1,0 +1,17 @@
+<environmentvariabledefinition schemaname="new_varActions">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <description default="Actions">
+    <label description="Actions" languagecode="1036" />
+  </description>
+  <displayname default="varActions">
+    <label description="varActions" languagecode="1036" />
+  </displayname>
+  <introducedversion>1.0.0.61</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>new_varSiteSharePoint</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

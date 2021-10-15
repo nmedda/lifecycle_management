@@ -1,0 +1,17 @@
+<environmentvariabledefinition schemaname="new_varEnv">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <description default="env variable dans SharePoint">
+    <label description="env variable dans SharePoint" languagecode="1036" />
+  </description>
+  <displayname default="envVariables">
+    <label description="envVariables" languagecode="1036" />
+  </displayname>
+  <introducedversion>1.2.9.4</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>new_varSiteSharePoint</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>
