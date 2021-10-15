@@ -1,0 +1,17 @@
+<environmentvariabledefinition schemaname="new_varDemandes">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <description default="Demandes">
+    <label description="Demandes" languagecode="1036" />
+  </description>
+  <displayname default="varDemandes">
+    <label description="varDemandes" languagecode="1036" />
+  </displayname>
+  <introducedversion>1.0.0.61</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>new_varSiteSharePoint</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

@@ -1,0 +1,17 @@
+<environmentvariabledefinition schemaname="new_varEtapeAction">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <description default="EtapeAction">
+    <label description="EtapeAction" languagecode="1036" />
+  </description>
+  <displayname default="varEtapeAction">
+    <label description="varEtapeAction" languagecode="1036" />
+  </displayname>
+  <introducedversion>1.0.0.61</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>new_varSiteSharePoint</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

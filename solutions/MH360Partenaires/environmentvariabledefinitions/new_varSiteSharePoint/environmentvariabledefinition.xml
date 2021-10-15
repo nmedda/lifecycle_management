@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="new_varSiteSharePoint">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <displayname default="varSiteSharePoint">
+    <label description="varSiteSharePoint" languagecode="1036" />
+  </displayname>
+  <introducedversion>1.2.5.11</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>dataset</parameterkey>
+  <type>100000004</type>
+</environmentvariabledefinition>

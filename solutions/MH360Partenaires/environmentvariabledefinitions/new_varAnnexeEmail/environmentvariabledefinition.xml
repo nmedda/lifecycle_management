@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="new_varAnnexeEmail">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <displayname default="varAnnexeEmail">
+    <label description="varAnnexeEmail" languagecode="1036" />
+  </displayname>
+  <introducedversion>1.2.5.9</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>new_varSiteSharePoint</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>
